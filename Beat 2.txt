@@ -1,0 +1,93 @@
+Beat K44
+Bore	: 58 mm		
+Stroke	: 58 mm		
+InValve	: 26.13 mm	
+ExValve	: 22.21 mm	
+VolEfi	: 86.6
+RunnerD	: 22.86 mm
+RunnerL	: 283 mm
+Peak T	: 6000 rpm
+
+
+CAM BRT T10
+	in	ex
+t open	14	49
+t close	53	19
+lift	7.53	7.57
+LSA	105-116	110-100
+OverLap	2.08	1.78
+
+
+CAM BRT T3 (Alternatif)
+	in	ex
+t open	20	50
+t close	50	22
+lift	7.47	7.52
+LSA	106	104
+OverLap	2.4	2.5
+
+
+
+
+
+GPT
+	in	ex
+duration30	30
+t open	15	50
+t close	45	20
+lift	9 mm	
+LSA	110
+
+	in	ex
+dur	40	40
+t open	10	60
+t close	50	20
+lift	8 mm	
+LSA	112
+
+
+
+
+	Runner
+https://exx.se/techinfo/runners/runners.html
+
+Cylinder bore (mm)	
+58
+
+Cylinder stroke (mm)	
+58
+
+Cubic capacity (cm3)	
+153.24060628170002
+
+Target RPM	
+8000
+
+Runner diameter (cm)	
+2.6395861015388915
+
+Duration intake valve (degrees)	
+30
+
+Runner length (cm)	
+32.44273447880771
+
+
+	Valve
+https://www.gregraven.org/hotwater/calculators/valve-sizing.html
+\sqrt(((8000*58*58^(2))-:2286000))
+
+	Cam Duration
+http://www.wallaceracing.com/camcalc.php
+
+
+	Mass flow
+
+
+	Volumetric Eficiency
+https://calculatorspot.online/engineering-tools/volumetric-efficiency-calculator/
+
+
+
+
+
